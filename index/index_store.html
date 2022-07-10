@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ASHLEY</title>
+    <link rel="stylesheet" href="css/reset_1.css">
+    <link rel="stylesheet" href="css/store_style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#seoul").click(function(){
+                $("#seoul").css({
+                    background:"#941e34",
+                    color:"#fff"
+                });
+                $("#busan").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#gwangju").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#seoul_").show();
+                $("#busan_").hide();
+                $("#gwangju_").hide();
+            })
+            $("#busan").click(function(){
+                $("#seoul").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#busan").css({
+                    background:"dodgerblue",
+                    color:"#fff"
+                });
+                $("#gwangju").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#busan_").show();
+                $("#seoul_").hide();
+                $("#gwangju_").hide();
+            })
+            $("#gwangju").click(function(){
+                $("#seoul").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#busan").css({
+                    background:"#fff",
+                    color:"#000"
+                });
+                $("#gwangju").css({
+                    background:"orangered",
+                    color:"#fff"
+                });
+                $("#gwangju_").show();
+                $("#seoul_").hide();
+                $("#busan_").hide();
+            })
+            $("#seoul").click();
+        })
+        $(document).ready(function() {
+             $("#a1").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d527.7548722155643!2d126.9343519312598!3d37.55611465184708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98951075e4f5%3A0xf5258f1c6035cf7a!2z7JWg7IqQ66asIO2AuOymiCDsi6DstIzsoJA!5e0!3m2!1sko!2skr!4v1607488625300!5m2!1sko!2skr");
+            });
+            $("#a2").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.3436856145165!2d126.92395043519693!3d37.556794546424534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98dca07ce425%3A0x53fe7ae4470780f2!2z7JWg7IqQ66asVyDtmY3rjIDsoJA!5e0!3m2!1sko!2skr!4v1607399878636!5m2!1sko!2skr");
+            });
+            $("#a3").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395.7685194129883!2d126.95208826649163!3d37.480830046714544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f89b25c0159%3A0x2b35bc989d586864!2z7JWg7IqQ66asIOyEnOyauOuMgOyeheq1rOygkA!5e0!3m2!1sko!2skr!4v1607488964688!5m2!1sko!2skr");
+            });
+            $("#a4").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1292.5340461466592!2d126.93776229158713!3d37.525326987834916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f4f51154ed9%3A0xda540c0654aa9027!2z7JWg7IqQ66asIOuFuOuTpOuCmOujqOygkA!5e0!3m2!1sko!2skr!4v1607488709802!5m2!1sko!2skr");
+            });
+             $("#a5").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d559.0281637689693!2d126.98332836141023!3d37.57059090205108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2e91d47728f%3A0x28bf65035450eb80!2z7JWg7IqQ66asIOyiheqwgeyXreygkA!5e0!3m2!1sko!2skr!4v1607488752683!5m2!1sko!2skr");
+            });
+            $("#a6").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d646.1352777964973!2d127.07090919292189!3d37.540532209282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4e812548c51%3A0x7fa017ed185bca65!2z7JWg7IqQ66asIOqxtOuMgOyKpO2DgOyLnO2LsOygkA!5e0!3m2!1sko!2skr!4v1607488806081!5m2!1sko!2skr");
+            });
+             $("#a7").click(function() {
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.5447188961409!2d127.12470074489158!3d37.47754040563538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5f4d82c590d%3A0xb5c051b3375a1779!2z7JWg7IqQ66asVyBOQ-yGoe2MjOygkA!5e0!3m2!1sko!2skr!4v1607488851681!5m2!1sko!2skr");
+            });
+            
+            $("#b1").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d685.7452637821297!2d129.06314072689517!3d35.15730440964715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb65ccd17d61%3A0xc6c85f67057ab092!2z7JWg7IqQ66asIO2AuOymiCBOQ-yEnOuptOygkA!5e0!3m2!1sko!2skr!4v1607488574691!5m2!1sko!2skr");
+            });
+            $("#b2").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d969.6355064823008!2d129.1765116923487!3d35.170283137170635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688d0c9d5e4935%3A0x4cda1250d08d937!2z7JWg7IqQ66asIO2VtOyatOuMgE5D67Cx7ZmU7KCQ!5e0!3m2!1sko!2skr!4v1607488425190!5m2!1sko!2skr");
+            });
+            $("#b3").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1152.2191724218155!2d129.0833306129774!3d35.232167583087524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356893eda8e3993d%3A0xac64e701efc9830a!2z7JWg7IqQ66asIE5D67Cx7ZmU7KCQIOu2gOyCsOuMgOygkA!5e0!3m2!1sko!2skr!4v1607488465892!5m2!1sko!2skr");
+            });
+            $("#b4").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.2197409789674!2d129.1188419595307!3d35.15406400207242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ed21d3c0ee71%3A0xad64c30e3123fa66!2z7JWg7IqQ66asVyDrtoDsgrDqtJHslYjrpqzsvITtirjtmLjthZTsoJA!5e0!3m2!1sko!2skr!4v1607488519027!5m2!1sko!2skr");
+            });
+            $("#c1").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.14184359432846!2d126.91297865917949!3d35.148541891037645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718c870484c6ef%3A0xd28bc0ae37293caa!2zTkPsm6jsnbTruIzstqnsnqXsoJA!5e0!3m2!1sko!2skr!4v1607489143287!5m2!1sko!2skr");
+            });
+            $("#c2").click(function(){
+                $("#frame").attr('src',"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d576.6190410727609!2d126.87927820591864!3d35.16036467327843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718c0f40a3fc37%3A0xafead6869e477c15!2z7JWg7IqQ66asIOq0keyjvOycoOyKpO2AmOyWtOygkA!5e0!3m2!1sko!2skr!4v1607489098899!5m2!1sko!2skr");
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="h_cont1">
+                <h1><a href="../index.html"><img src="img/f_logo.png"></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index_notice.html">NOTICE&nbsp;&nbsp;</a></li>
+                        <li><a href="javascript:location.reload()">STORE&nbsp;&nbsp;&nbsp;</a></li>
+                        <li><a href="index_customer.html">CUSTOMER</a></li>
+                    </ul>
+                </nav>
+                <ul class="log">
+                    <li><a href="index_login.html">로그인</a></li>
+                    <li><a href="index_userinfo.html">회원가입</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="container">
+            <div class="c_1">
+                <p>STORE</p>
+            </div>
+            <table>
+                <tr>
+                <th><a id="seoul">애슐리 서울</a></th></tr>
+                <tr>
+                <th><a id="busan">애슐리 부산</a></th></tr>
+                <tr>
+                <th><a id="gwangju">애슐리 광주</a></th></tr>
+            </table>
+            <table id="seoul_">
+                <tr>
+                    <th><a href="#" id="a1">신촌점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a2">홍대점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a3">서울대점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a4">노들나루점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a5">종각역점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a6">건대점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="a7">NC송파점</a></th>
+                </tr>
+            </table>
+            <table id="busan_">
+                <tr>
+                    <th><a href="#" id="b1">NC서면점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="b2">해운대점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="b3">부산대점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="b4">광안점</a></th>
+                </tr>
+            </table>
+            <table id="gwangju_">
+                <tr>
+                    <th><a href="#" id="c1">NC충장로점</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#" id="c2">유스퀘어점</a></th>
+                </tr>
+            </table>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d527.7548722155643!2d126.9343519312598!3d37.55611465184708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98951075e4f5%3A0xf5258f1c6035cf7a!2z7JWg7IqQ66asIO2AuOymiCDsi6DstIzsoJA!5e0!3m2!1sko!2skr!4v1607488625300!5m2!1sko!2skr "width="95vw" height="635vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="frame"></iframe>
+        </div>
+        <footer id="footer">
+            <div class="f_cont1">
+                <address>
+                Redesign ASHLEY
+                <br> Copyright© ehi3919@naver.com 
+                <br> 개인정보처리방침 | 영상정보처리기기운영·관리방침 | 서비스 이용약관
+                </address>
+            </div>
+        </footer>
+        <aside>
+            <p>MENU</p>
+            <ul>
+                <li>
+                <a class="aside1" href="index_classic.html">CLASSIC</a>
+                </li>
+                <li>
+                <a class="aside2" href="index_w.html">W</a>
+                </li>
+                <li>
+                <a class="aside3" href="index_queens.html">QUEENS</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+</body>
+
+</html>
